@@ -58,7 +58,7 @@ public class Snapshotter {
         style = Style(with: mapSnapshotter)
         observable = MapboxObservable(observable: mapSnapshotter)
 
-        sendTurnstileEvent(accessToken: options.resourceOptions.accessToken)
+        // sendTurnstileEvent(accessToken: options.resourceOptions.accessToken)
     }
 
     /// Enables injecting mocks when unit testing
